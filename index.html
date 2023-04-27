@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Weather Dashboard</h1>
+    </nav>
+    <article>
+        <div class="city_search">
+            <h2>Search for a city:</h2>
+            <input type="search" >
+            <br>
+            <button id="search_btn">Search</button>
+        </div>
+    </article>
+    <section>
+        <div class="main_display">
+        <h2>Context</h2>
+        <p id="temp">Temp:</p>
+        <p id="wind">Wind:</p>
+        <p id="humidity">Humidity:</p>
+        </div>
+    </section>
+    <section>
+        <h3>5-day Forecast:</h3>
+        <div class="panel" id="first_panel"></div>
+        <div class="panel" id="second_panel"></div>
+        <div class="panel" id="third_panel"></div>
+        <div class="panel" id="fourth_panel"></div>
+        <div class="panel" id="fifth_panel"></div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>

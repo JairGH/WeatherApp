@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  height: 50px;
+  background-color: #8ecae6;
+}
+h1 {
+  padding-top: 9px;
+  font-size: 28px;
+  color: #023047;
+}
+
+.city_search {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 500px;
+  width: 280px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+input {
+  height: 30px;
+  margin-left: 10px;
+  height: 30px;
+  
+  margin-right: 10px;
+}
+#search_btn {
+  height: 30px;
+  margin-left: 10px;
+  height: 30px;
+  margin-right: 10px;
+}
