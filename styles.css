@@ -46,18 +46,20 @@ input {
   margin-right: 10px;
   outline: none;
   border-radius: 5px;
-
 }
-.main_display {
-  display: flex;
+/* .main {
+  display: block;
+  background-color: red;
   flex-direction: column;
-  margin-bottom: -500px;
-
-}
+  margin-left: 305px;
+  
+} */
+/* p {
+  margin-top: 50px;
+} */
 #unu {
   display: flex;
   justify-content: center;
-  
 }
 #uwu {
   background-color: #8ecae6;
@@ -69,8 +71,19 @@ input {
   border-radius: 5px;
   font-size: 16px;
 }
-
 #space {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+.panel {
+  display: flex;
+  width: 210px;
+  height: 250px;
+  background-color: #8ecae6;
+  flex-direction: column;
+}
+.big {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
