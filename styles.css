@@ -15,12 +15,16 @@ h1 {
   color: #023047;
 }
 
-.city_search {
-  display: flex;
-  flex-direction: column;
+article {
+  /* display: flex;
+  flex-direction: column; */
   background-color: red;
   height: 500px;
   width: 280px;
+}
+.city_search {
+  display: flex;
+  flex-direction: column;
 }
 h2 {
   display: flex;
@@ -40,4 +44,19 @@ input {
   margin-left: 10px;
   height: 30px;
   margin-right: 10px;
+  outline: none;
+  border-radius: 5px;
+
 }
+.main_display {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+  .default_city {
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+  }
