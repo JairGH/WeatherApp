@@ -18,7 +18,7 @@ h1 {
 article {
   /* display: flex;
   flex-direction: column; */
-  background-color: red;
+  /* background-color: red; */
   height: 500px;
   width: 280px;
 }
@@ -36,7 +36,7 @@ input {
   height: 30px;
   margin-left: 10px;
   height: 30px;
-  
+  border-radius: 3px;
   margin-right: 10px;
 }
 #search_btn {
@@ -51,12 +51,26 @@ input {
 .main_display {
   display: flex;
   flex-direction: column;
+  margin-bottom: -500px;
 
 }
+#unu {
+  display: flex;
+  justify-content: center;
+  
+}
+#uwu {
+  background-color: #8ecae6;
+  outline: none;
+  color: white;
+  width: 230px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
-
-  .default_city {
-    width: 100px;
-    height: 25px;
-    background-color: blue;
-  }
+#space {
+  display: flex;
+  justify-content: center;
+}
